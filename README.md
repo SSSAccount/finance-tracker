@@ -75,6 +75,13 @@ python finance_tracker.py
    - Select option 7 from the main menu to exit the program.
 
 
+## FAQ
+
+#### I tried to delete a newly added transaction but it says that it does not exist?
+
+For now, the application can only delete already loaded transactions. To delete newly added transactions you have to run the application again.
+
+
 ## Credits
 
 [prettytable](https://github.com/jazzband/prettytable) - For creating summary tables and viewing transactions
