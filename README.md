@@ -1,3 +1,8 @@
+## To View The Rendered Documentation
+
+Please visit the following link to see the rendered version of this documentation for easier viewing.
+
+https://github.com/SSSAccount/finance-tracker
 
 # Personal Finance Tracker
 
@@ -15,7 +20,7 @@ A Python program for tracking personal finance transactions. It allows users to 
 
 ## Demo
 
-https://github.com/SSSAccount/finance-tracker/assets/115540526/dda0211e-f3ed-41c4-89b5-e71f3da9cc49
+https://github-production-user-asset-6210df.s3.amazonaws.com/115540526/322344348-dda0211e-f3ed-41c4-89b5-e71f3da9cc49.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240415T055523Z&X-Amz-Expires=300&X-Amz-Signature=38eb7e39158527ff4ee77100fda057e33feccb228a73ce38e9d351a9256fee7b&X-Amz-SignedHeaders=host&actor_id=115540526&key_id=0&repo_id=786647793
 
 ## Requirements
 - Python >= 3.12.1
@@ -53,6 +58,11 @@ python finance_tracker.py
 
 3. **Adding Bulk Transactions**:
    - Make a copy of the bulk.csv to avoid any data loss as the program empties the file after adding the transactions (Optional)
+   - The bulk file should look something like this:
+   
+      Salary,500,2024-02-29\
+      Other, 300, 2024-02-29, Income 
+
    - Choose option 3 from the main menu.
    - Transactions will be added automatically from the file.
 
@@ -69,14 +79,13 @@ python finance_tracker.py
 
 6. **Displaying Summary**:
    - Select option 6 from the main menu.
-   - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.
+   - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.   
 
 7. **Exiting Program**:
    - Select option 7 from the main menu to exit the program.
 
 
 ## FAQ
-
 #### 1. I tried to delete a newly added transaction but it says that it does not exist?
 
 For now, the application can only delete already loaded transactions. To delete newly added transactions you have to run the application again.
@@ -85,6 +94,12 @@ For now, the application can only delete already loaded transactions. To delete 
 
 For now, the application needs an income AND an expense in order to calculate the most contributing expense and income.
 
+#### 3. What are the supported categories?
+
+The supported categories are:
+Groceries, Salary, Utilities, Healthcare, Education and Other
+
+The 'Other' category needs identification of whether it as an income or an expense. Any unsupported categories will be converted to the 'Other' category
 
 ## Credits
 
