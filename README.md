@@ -77,9 +77,13 @@ python finance_tracker.py
 
 ## FAQ
 
-#### I tried to delete a newly added transaction but it says that it does not exist?
+#### 1. I tried to delete a newly added transaction but it says that it does not exist?
 
 For now, the application can only delete already loaded transactions. To delete newly added transactions you have to run the application again.
+
+#### 2. Why do I need an income and an expense to view the summary table instead of having only income or only expense?
+
+For now, the application needs an income AND an expense in order to calculate the most contributing expense and income.
 
 
 ## Credits
