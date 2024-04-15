@@ -29,7 +29,7 @@ Ensure you are in the same directory as the requirements.txt file. Execute the f
 pip install -r requirements.txt
 ```
 
-Ensure you have also downloaded "finance_tracker.py", "helper.py", "financials.json" and a file called "bulk.csv" in the same directory
+Ensure you have also downloaded "finance_tracker.py", "helper.py", "financials.json" and create a new file called "bulk.csv" in the same directory
 
 ## Usage/Examples
 
