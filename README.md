@@ -15,7 +15,10 @@ A Python program for tracking personal finance transactions. It allows users to 
 
 ## Demo
 
-<video src=https://github.com/SSSAccount/finance-tracker/assets/115540526/dda0211e-f3ed-41c4-89b5-e71f3da9cc49 width="300"\>
+<video width="320" height="240" controls>
+  <source src="https://github.com/SSSAccount/finance-tracker/assets/115540526/dda0211e-f3ed-41c4-89b5-e71f3da9cc49" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Requirements
 - Python >= 3.12.1
