@@ -53,7 +53,7 @@ python finance_tracker.py
 
 3. **Adding Bulk Transactions**:
    - Make a copy of the bulk.csv to avoid any data loss as the program empties the file after adding the transactions (Optional)
-   - The bulk file should look something like this:
+   - The bulk.csv file should look something like this:
    
       Salary,500,2024-02-29\
       Other, 300, 2024-02-29, Income 
