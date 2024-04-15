@@ -1,8 +1,3 @@
-## To View The Rendered Documentation
-
-Please visit the following link to see the rendered version of this documentation for easier viewing
-
-
 
 # Personal Finance Tracker
 
